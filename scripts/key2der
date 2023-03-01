@@ -1,0 +1,2 @@
+#!/bin/bash
+openssl rsa -in $1 -inform PEM -out $2 -outform DER
